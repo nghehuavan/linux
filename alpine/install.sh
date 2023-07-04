@@ -4,7 +4,7 @@
 echo http://dl-cdn.alpinelinux.org/alpine/v3.18/main > /etc/apk/repositories
 echo http://dl-cdn.alpinelinux.org/alpine/v3.18/community >> /etc/apk/repositories
 apk update
-apk add docker docker-compose
+apk add curl bash nano docker docker-compose
 rc-update add docker boot
 addgroup root docker
 service docker start
