@@ -1,4 +1,3 @@
-##https://hub.docker.com/_/redis
 set image=redis
 set tag=4.0
 set port_0=6379
