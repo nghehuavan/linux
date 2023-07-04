@@ -1,4 +1,4 @@
-::https://hub.docker.com/_/microsoft-mssql-server
+##https://hub.docker.com/_/microsoft-mssql-server
 set image="mcr.microsoft.com/mssql/server"
 set tag="2017-latest"
 set port_0="1433"
